@@ -12,3 +12,5 @@ Includes:
  - lftp
  - GNU make
  - AWS cli
+
+Image variants tagged with 12-expocli also include a globally added expo-cli.

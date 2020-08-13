@@ -1,0 +1,3 @@
+FROM countingup/node:12
+
+RUN yarn global add expo-cli && yarn cache clean
