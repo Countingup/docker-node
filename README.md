@@ -1,6 +1,6 @@
 # node
 
-[![Docker Automated build](https://img.shields.io/docker/build/countingup/node.svg)](https://hub.docker.com/r/countingup/node/builds/)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/countingup/node.svg)](https://hub.docker.com/r/countingup/node/builds/) ![Docker Image Size](https://img.shields.io/docker/image-size/countingup/node/12)
 
 Minimal node:12-alpine base image with a few tools useful in CI jobs.
 
