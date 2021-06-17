@@ -1,4 +1,3 @@
-# Generated from repo-toolkit docker-templates -- DO NOT EDIT MANUALLY
 #
 # CI pipeline for building the countingup/node Docker image and pushing to Docker Hub
 #
@@ -19,6 +18,8 @@ blocks:
         - name: Build and deploy image
           commands:
             - checkout
-            - docker build -t countingup/node .
+            - docker build -t countingup/node:12 .
+            - docker build -t countingup/node:12-expocli Dockerfile-expocli
             - echo "${DOCKERHUB_PASSWORD}" | docker login --username "${DOCKERHUB_USERNAME}" --password-stdin
-            - docker push countingup/node
+            - docker push countingup/node:12
+            - docker push countingup/node:12-expocli
