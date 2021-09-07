@@ -17,3 +17,8 @@ Includes:
 
 Image variants tagged with 12-expocli also include:
  - a globally added expo-cli
+
+## Changelog
+
+ - 2021-09-07 -- Security fixes and latest expo-cli 4.11.0
+ 
