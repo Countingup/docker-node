@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:12-alpine3.14
 
 LABEL org.opencontainers.image.source="https://github.com/Countingup/docker-node"
 
