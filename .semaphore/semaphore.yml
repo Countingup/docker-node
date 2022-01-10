@@ -16,10 +16,13 @@ blocks:
         - name: countingup-dockerhub
       jobs:
         - name: Build and deploy image
+          matrix:
+            - env_var: NODE_VERSION
+              values: ["12", "14", "16"]
           commands:
             - checkout
-            - docker build -t countingup/node:12 .
-            - docker build -t countingup/node:12-expocli -f Dockerfile-expocli .
+            - docker build --build-arg NODE_VERSION -t countingup/node:${NODE_VERSION} .
+            - docker build --build-arg NODE_VERSION -t countingup/node:${NODE_VERSION}-expocli -f Dockerfile-expocli .
             - echo "${DOCKERHUB_PASSWORD}" | docker login --username "${DOCKERHUB_USERNAME}" --password-stdin
-            - docker push countingup/node:12
-            - docker push countingup/node:12-expocli
+            - docker push countingup/node:${NODE_VERSION}
+            - docker push countingup/node:${NODE_VERSION}-expocli

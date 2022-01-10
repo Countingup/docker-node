@@ -1,4 +1,5 @@
-FROM node:12-alpine3.14
+ARG NODE_VERSION=16
+FROM node:${NODE_VERSION}-alpine3.15
 
 LABEL org.opencontainers.image.source="https://github.com/Countingup/docker-node"
 
