@@ -23,3 +23,4 @@ Image variants tagged with 12-expocli also include:
  - 2021-11-16 -- Security fixes and latest expo-cli 4.13.0
  - 2021-11-06 -- Update to Alpine 3.14 base image
  - 2021-09-07 -- Security fixes and latest expo-cli 4.11.0
+ - 2022-01-17 -- Rebuild to update base image for security vulns
