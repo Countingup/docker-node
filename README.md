@@ -20,6 +20,7 @@ Image variants tagged with 12-expocli also include:
 
 ## Changelog
 
+- 2022-07-04 -- Rebuild to update base image for security vulns
 - 2022-06-16 -- Rebuild to update base image for security vulns
 - 2022-05-16 -- Rebuild to update expo-cli 5.4.4
 - 2022-04-05 -- Rebuild to update base image for security vulns
