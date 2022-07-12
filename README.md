@@ -2,7 +2,7 @@
 
 [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/countingup/node.svg)](https://hub.docker.com/r/countingup/node/builds/) ![Docker Image Size](https://img.shields.io/docker/image-size/countingup/node/12)
 
-Minimal node:12-alpine / node:14-alpine / node:16-alpine base image with a few tools useful in CI jobs.
+Minimal node:16-alpine base image with a few tools useful in CI jobs.
 
 Includes:
  - bash
@@ -15,11 +15,12 @@ Includes:
  - zip
  - jq
 
-Image variants tagged with 12-expocli also include:
+Image variants tagged with 16-expocli also include:
  - a globally added expo-cli
 
 ## Changelog
 
+- 2022-07-12 -- Remove builds of 12 and 14
 - 2022-07-04 -- Rebuild to update base image for security vulns
 - 2022-06-16 -- Rebuild to update base image for security vulns
 - 2022-05-16 -- Rebuild to update expo-cli 5.4.4
