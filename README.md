@@ -20,6 +20,7 @@ Image variants tagged with 16-expocli also include:
 
 ## Changelog
 
+- 2022-07-19 -- Upgrade packages to fix libcrypto1.1 security vulns
 - 2022-07-12 -- Remove builds of 12 and 14
 - 2022-07-04 -- Rebuild to update base image for security vulns
 - 2022-06-16 -- Rebuild to update base image for security vulns
