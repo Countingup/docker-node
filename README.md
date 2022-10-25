@@ -20,6 +20,8 @@ Image variants tagged with 16-expocli also include:
 
 ## Changelog
 
+- 2022-10-25 -- Rebuild to update base image for security vulnerability (git/git)
+- 2022-09-26 -- Rebuild to update base image for security vulnerability (expat/expat)
 - 2022-09-07 -- Rebuild to update base image for security vulns
 - 2022-07-19 -- Upgrade packages to fix libcrypto1.1 security vulns
 - 2022-07-12 -- Remove builds of 12 and 14
@@ -36,4 +38,3 @@ Image variants tagged with 16-expocli also include:
 - 2021-11-16 -- Security fixes and latest expo-cli 4.13.0
 - 2021-11-06 -- Update to Alpine 3.14 base image
 - 2021-09-07 -- Security fixes and latest expo-cli 4.11.0
-- 2022-09-26 -- Rebuild to update base image for security vulnerability (expat/expat)
