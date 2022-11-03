@@ -20,6 +20,7 @@ Image variants tagged with 16-expocli also include:
 
 ## Changelog
 
+- 2022-11-03 -- Rebuild to update base image for security vulnerability (xmldom)
 - 2022-11-02 -- Rebuild to update base image for security vulnerability (curl/expat)
 - 2022-10-25 -- Rebuild to update base image for security vulnerability (git/git)
 - 2022-09-26 -- Rebuild to update base image for security vulnerability (expat/expat)
