@@ -20,6 +20,7 @@ Image variants tagged with 16-expocli also include:
 
 ## Changelog
 
+- 2023-02-20 -- Rebuild to update base image for security vulns
 - 2023-02-10 -- Rebuild to update base image for security vulns
 - 2022-12-12 -- Rebuild to update base image for security vulns (python3)
 - 2022-12-07 -- Rebuild to update base image for security vulns
