@@ -20,6 +20,7 @@ Image variants tagged with 16-expocli also include:
 
 ## Changelog
 
+- 2023-03-27 -- Rebuild to update base image for security vulns (openssl)
 - 2023-02-22 -- Update to Alpine 3.16 base image
 - 2023-02-20 -- Rebuild to update base image for security vulns
 - 2023-02-10 -- Rebuild to update base image for security vulns
