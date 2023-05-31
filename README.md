@@ -22,6 +22,7 @@ Image variants tagged with 16-expocli also include:
 
 |Date|Description|
 |-|-| 
+|2023-05-31|Rebuild to update base image for security vulns|
 |2023-05-17|Rebuild to update base image for security vulns (openssh)|
 |2023-04-27|Rebuild to update base image for security vulns (git)|
 |2023-04-17|Rebuild to update base image for security vulns (curl)|
