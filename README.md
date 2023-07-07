@@ -22,6 +22,7 @@ Image variants tagged with 16-expocli also include:
 
 |Date|Description|
 |-|-| 
+|2023-07-07|Rebuild to update base image for security vulns (node)|
 |2023-06-29|Rebuild to update base image for security vulns (node)|
 |2023-06-08|Remove libssl3 (not required, added by mistake)|
 |2023-06-07|Rebuild to update base image for security vulns (libssl3)|
