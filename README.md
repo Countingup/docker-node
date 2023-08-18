@@ -22,6 +22,7 @@ Image variants tagged with 16-expocli also include:
 
 |Date|Description|
 |-|-| 
+|2023-08-18|Rebuild to update base image for security vulns (node, openssl)|
 |2023-07-26|Rebuild to update base image for security vulns (openssl)|
 |2023-07-18|Update to Alpine 3.18 base image|
 |2023-07-07|Rebuild to update base image for security vulns (node)|
