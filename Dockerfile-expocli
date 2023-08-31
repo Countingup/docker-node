@@ -1,4 +1,4 @@
-ARG NODE_VERSION=16
+ARG NODE_VERSION=18
 FROM countingup/node:${NODE_VERSION}
 
 LABEL org.opencontainers.image.source="https://github.com/Countingup/docker-node"
