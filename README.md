@@ -1,8 +1,8 @@
 # node
 
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/countingup/node.svg)](https://hub.docker.com/r/countingup/node/builds/) ![Docker Image Size](https://img.shields.io/docker/image-size/countingup/node/16)
+![Docker Image Size](https://img.shields.io/docker/image-size/countingup/node/18)
 
-Minimal node:16-alpine base image with a few tools useful in CI jobs.
+Minimal node:18-alpine base image with a few tools useful in CI jobs.
 
 Includes:
  - bash
@@ -15,13 +15,14 @@ Includes:
  - zip
  - jq
 
-Image variants tagged with 16-expocli also include:
+Image variants tagged with 18-expocli also include:
  - a globally added expo-cli
 
 ## Changelog
 
 |Date|Description|
 |-|-| 
+|2023-10-13|Rebuild to update base image for security vulns (curl)|
 |2023-09-27|Rebuild to update base image for security vulns (curl)|
 |2023-08-18|Rebuild to update base image for security vulns (node, openssl)|
 |2023-07-26|Rebuild to update base image for security vulns (openssl)|
