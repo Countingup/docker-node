@@ -15,13 +15,15 @@ Includes:
  - zip
  - jq
 
-Image variants tagged with 18-expocli also include:
+Image variants tagged with 16-expocli also include:
  - a globally added expo-cli
 
 ## Changelog
 
 |Date|Description|
-|-|-| 
+|-|-|
+|2023-11-15|Build v16 image variant with expo-cli|
+|2023-11-13|Stop building image variant with expo-cli|
 |2023-10-13|Rebuild to update base image for security vulns (curl)|
 |2023-09-27|Rebuild to update base image for security vulns (curl)|
 |2023-08-18|Rebuild to update base image for security vulns (node, openssl)|
