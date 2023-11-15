@@ -1,0 +1,8 @@
+ARG NODE_VERSION=18
+FROM countingup/node:${NODE_VERSION}
+
+LABEL org.opencontainers.image.source="https://github.com/Countingup/docker-node"
+LABEL io.snyk.containers.image.dockerfile="/Dockerfile-expocli"
+
+RUN apk add --no-cache --update jq
+RUN yarn global add expo-cli && yarn cache clean
