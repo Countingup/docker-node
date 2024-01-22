@@ -22,6 +22,7 @@ Image variants tagged with 18-expocli also include:
 
 |Date|Description|
 |-|-| 
+|2024-01-22|Rebuild to update base image for security vulns (sqlite)|
 |2024-01-04|Rebuild to update base image for security vulns (curl, openssh)|
 |2023-11-30|Stop building node v16 and expocli image|
 |2023-10-13|Rebuild to update base image for security vulns (curl)|
