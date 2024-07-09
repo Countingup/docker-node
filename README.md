@@ -22,6 +22,7 @@ Image variants tagged with 18-expocli also include:
 
 |Date|Description|
 |-|-| 
+|2024-07-09|Rebuild to udpate base image for security vulns (openssh)|
 |2024-06-19|Rebuild to udpate base image for security vulns (yajl, busybox)|
 |2024-05-28|Rebuild to udpate base image for security vulns (openssl, busybox)|
 |2024-05-13|Rebuild to update base image for security vulns (node)|
