@@ -22,9 +22,10 @@ Image variants tagged with 18-expocli also include:
 
 | Date       | Description                                                           |
 |------------|-----------------------------------------------------------------------| 
+| 2025-02-24 | Rebuild to update base image for security vulns (openssl)             |
 | 2025-02-17 | Rebuild to update base image for security vulns (musl)                |
-| 2025-02-14 | Rebuild to update base image for security vulns (openssl)
-| 2025-01-27 | Rebuild to update base image for security vulns (node)
+| 2025-02-14 | Rebuild to update base image for security vulns (openssl)             |
+| 2025-01-27 | Rebuild to update base image for security vulns (node)                |
 | 2025-01-17 | Rebuild to update base image for security vulns (git)                 |
 | 2024-12-09 | Rebuild to update base image for security vulns (python3)             |
 | 2024-11-08 | Rebuild to update base image for security vulns (curl)                |
