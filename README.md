@@ -22,6 +22,7 @@ Image variants tagged with 18-expocli also include:
 
 | Date       | Description                                                           |
 |------------|-----------------------------------------------------------------------| 
+| 2025-03-18 | Rebuild to update base image for security vulns (expat)               |
 | 2025-02-24 | Rebuild to update base image for security vulns (openssl)             |
 | 2025-02-17 | Rebuild to update base image for security vulns (musl)                |
 | 2025-02-14 | Rebuild to update base image for security vulns (openssl)             |
