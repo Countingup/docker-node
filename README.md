@@ -1,8 +1,8 @@
 # node
 
-![Docker Image Size](https://img.shields.io/docker/image-size/countingup/node/18)
+![Docker Image Size](https://img.shields.io/docker/image-size/countingup/node/22)
 
-Minimal node:18-alpine base image with a few tools useful in CI jobs.
+Minimal node:22-alpine base image with a few tools useful in CI jobs.
 
 Includes:
  - bash
@@ -22,6 +22,7 @@ Image variants tagged with 18-expocli also include:
 
 | Date       | Description                                                           |
 |------------|-----------------------------------------------------------------------| 
+| 2025-04-24 | Update from 18 to 22                                                  |
 | 2025-03-18 | Rebuild to update base image for security vulns (expat)               |
 | 2025-02-24 | Rebuild to update base image for security vulns (openssl)             |
 | 2025-02-17 | Rebuild to update base image for security vulns (musl)                |
