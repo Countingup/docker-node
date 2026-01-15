@@ -22,6 +22,7 @@ Image variants tagged with 18-expocli also include:
 
 | Date       | Description                                                           |
 |------------|-----------------------------------------------------------------------| 
+| 2026-01-15 | Update to alpine 3.22 base image                                      |
 | 2025-11-24 | Rebuild to update base image for security vulns (glob)                |
 | 2025-07-11 | Rebuild to update base image for security vulns (sqlite-libs)         |
 | 2025-04-24 | Update from 18 to 22                                                  |
