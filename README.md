@@ -14,6 +14,7 @@ Includes:
  - AWS cli
  - zip
  - jq
+ - curl
 
 Image variants tagged with 18-expocli also include:
  - a globally added expo-cli
