@@ -23,6 +23,7 @@ Image variants tagged with 18-expocli also include:
 
 | Date       | Description                                                           |
 |------------|-----------------------------------------------------------------------| 
+| 2026-02-20 | Update npm from 10 to 11                                              |
 | 2026-02-05 | Rebuild to update base image for security vulns (expat)               |
 | 2026-01-28 | Rebuild to update base image for security vulns (openssl)             |
 | 2026-01-26 | Rebuild to update base image for security vulns (glob)                |
