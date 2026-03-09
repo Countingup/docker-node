@@ -1,23 +1,20 @@
 # node
 
-![Docker Image Size](https://img.shields.io/docker/image-size/countingup/node/22)
+![Build Status](https://countingup.semaphoreci.com/badges/docker-node/branches/master.svg?style=shields) ![Docker Image Size](https://img.shields.io/docker/image-size/countingup/node/22?label=image%20size:%2022)
 
 Minimal node:22-alpine base image with a few tools useful in CI jobs.
 
 Includes:
- - bash
- - coreutils
- - git
- - ssh client
- - lftp
- - GNU make
- - AWS cli
- - zip
- - jq
- - curl
-
-Image variants tagged with 18-expocli also include:
- - a globally added expo-cli
+- git
+- openssh-client
+- make
+- bash
+- lftp
+- coreutils
+- zip
+- jq
+- aws-cli
+- curl
 
 ## Changelog
 
