@@ -1,5 +1,5 @@
 ARG NODE_VERSION=22
-FROM node:${NODE_VERSION}-alpine3.22
+FROM node:${NODE_VERSION}-alpine3.23
 
 LABEL org.opencontainers.image.source="https://github.com/Countingup/docker-node"
 
@@ -8,7 +8,6 @@ RUN apk add --no-cache --update --upgrade \
     openssh-client \
     make \
     bash \
-    lftp \
     coreutils \
     zip \
     jq \
