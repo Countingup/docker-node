@@ -20,6 +20,7 @@ Includes:
 
 | Date       | Description                                                           |
 |------------|-----------------------------------------------------------------------| 
+| 2026-03-23 | Rebuild to update base image for security vulns (nghttp2, xz-libs)    |
 | 2026-03-23 | Rebuild to update base image for security vulns (expat)               |
 | 2026-02-20 | Update npm from 10 to 11                                              |
 | 2026-02-05 | Rebuild to update base image for security vulns (expat)               |
