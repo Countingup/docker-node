@@ -20,6 +20,7 @@ Includes:
 
 | Date       | Description                                                           |
 |------------|-----------------------------------------------------------------------| 
+| 2026-10-30 | Rebuild to update base image for security vulns (python3)            |
 | 2026-10-23 | Rebuild to update base image for security vulns (ca-certificates)     |
 | 2026-09-10 | Rebuild to update base image for security vulns (jq)                  |
 | 2026-08-04 | Update to Alpine 3.24 to resolve urllib3 security vulnerabilities     |
