@@ -20,6 +20,7 @@ Includes:
 
 | Date       | Description                                                           |
 |------------|-----------------------------------------------------------------------| 
+| 2026-11-23 | Rebuild for security vulns (openssl, urllib3, cryptography)           |
 | 2026-11-17 | Rebuild for latest nodejs 22 (22.23.5)                                |
 | 2026-11-10 | Rebuild for security vulns (zlib, expat, openssh, certifi, undici)    |
 | 2026-10-30 | Rebuild to update base image for security vulns (python3)             |
